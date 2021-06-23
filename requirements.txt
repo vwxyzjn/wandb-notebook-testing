@@ -1,0 +1,14 @@
+dopamine-rl==1.0.5
+fastai==1.0.61
+gym==0.17.3
+jax==0.2.13
+Keras==2.4.3
+lightgbm==2.2.3
+numpy==1.19.5
+pandas==1.1.5
+scikit-learn==0.22.2.post1
+tensorboard==2.5.0
+tensorflow==2.5.0
+torch==1.9.0
+torchtext==0.10.0
+torchvision==0.10.0

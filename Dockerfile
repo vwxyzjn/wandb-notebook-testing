@@ -18,8 +18,8 @@ FROM ufoym/deepo
 
 RUN git clone https://github.com/wandb/examples
 WORKDIR /examples
-# COPY requirements.txt .
-# RUN pip install -r requirements.txt
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod 777 /usr/local/bin/entrypoint.sh
